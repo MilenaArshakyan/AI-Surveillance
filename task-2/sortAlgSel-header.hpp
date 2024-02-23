@@ -32,8 +32,8 @@ public:
 
 class FileHandler {
 public:
-    static std::vector<int> readArrayFromFile(const std::string& filename); 
-    static void addArrayToFile(const std::string& filename, const std::vector<int>& vec);
+    std::vector<int> readArrayFromFile(const std::string& filename); 
+    void addArrayToFile(const std::string& filename, const std::vector<int>& vec);
 };
 
 
