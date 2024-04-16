@@ -1,0 +1,9 @@
+# ninja log v5
+1501	1755	1708942884913649561	ImageViewer.app/Contents/MacOS/ImageViewer	aa4b12765832d847
+54	1501	1708942884656075170	CMakeFiles/ImageViewer.dir/mainwindow.cpp.o	2695ecdd7a0546e0
+234	2262	1708800816692550697	CMakeFiles/ImageViewer.dir/main.cpp.o	3e2b9947f618df8f
+6	52	1708942883215893641	ImageViewer_autogen/timestamp	ded17c8772deadec
+6	52	1708942883215893641	/Users/milena/Desktop/aiSur/AI-Surveillance-Tasks/imageViewer/build-ImageViewer-Qt_6_6_2_for_macOS-Debug/ImageViewer_autogen/mocs_compilation.cpp	ded17c8772deadec
+6	52	1708942883215893641	/Users/milena/Desktop/aiSur/AI-Surveillance-Tasks/imageViewer/build-ImageViewer-Qt_6_6_2_for_macOS-Debug/ImageViewer_autogen/timestamp	ded17c8772deadec
+6	52	1708942883215893641	ImageViewer_autogen/mocs_compilation.cpp	ded17c8772deadec
+234	2260	1708800816692552947	CMakeFiles/ImageViewer.dir/ImageViewer_autogen/mocs_compilation.cpp.o	35258433fc6a6d1e
