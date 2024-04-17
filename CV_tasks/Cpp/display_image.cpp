@@ -3,7 +3,7 @@
 
 int main() {
 
-    std::string path = "/Users/milena/Desktop/images/test.png";
+    std::string path = "../images/test.webp";
     cv::Mat img = cv::imread(path);
 
     if (img.empty()) {
