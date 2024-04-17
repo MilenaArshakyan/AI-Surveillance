@@ -1,4 +1,4 @@
-# Install script for directory: /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp
+# Install script for directory: /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

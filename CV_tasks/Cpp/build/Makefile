@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp
+CMAKE_SOURCE_DIR = /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/build
+CMAKE_BINARY_DIR = /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/build/CMakeFiles /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build/CMakeFiles /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ Open_CV_Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Open_CV_Project.dir/build.make CMakeFiles/Open_CV_Project.dir/build
 .PHONY : Open_CV_Project/fast
 
-display_video.o: display_video.cpp.o
-.PHONY : display_video.o
+image_manipulation.o: image_manipulation.cpp.o
+.PHONY : image_manipulation.o
 
 # target to build an object file
-display_video.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Open_CV_Project.dir/build.make CMakeFiles/Open_CV_Project.dir/display_video.cpp.o
-.PHONY : display_video.cpp.o
+image_manipulation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Open_CV_Project.dir/build.make CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o
+.PHONY : image_manipulation.cpp.o
 
-display_video.i: display_video.cpp.i
-.PHONY : display_video.i
+image_manipulation.i: image_manipulation.cpp.i
+.PHONY : image_manipulation.i
 
 # target to preprocess a source file
-display_video.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Open_CV_Project.dir/build.make CMakeFiles/Open_CV_Project.dir/display_video.cpp.i
-.PHONY : display_video.cpp.i
+image_manipulation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Open_CV_Project.dir/build.make CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.i
+.PHONY : image_manipulation.cpp.i
 
-display_video.s: display_video.cpp.s
-.PHONY : display_video.s
+image_manipulation.s: image_manipulation.cpp.s
+.PHONY : image_manipulation.s
 
 # target to generate assembly for a file
-display_video.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Open_CV_Project.dir/build.make CMakeFiles/Open_CV_Project.dir/display_video.cpp.s
-.PHONY : display_video.cpp.s
+image_manipulation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Open_CV_Project.dir/build.make CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.s
+.PHONY : image_manipulation.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Open_CV_Project"
-	@echo "... display_video.o"
-	@echo "... display_video.i"
-	@echo "... display_video.s"
+	@echo "... image_manipulation.o"
+	@echo "... image_manipulation.i"
+	@echo "... image_manipulation.s"
 .PHONY : help
 
 

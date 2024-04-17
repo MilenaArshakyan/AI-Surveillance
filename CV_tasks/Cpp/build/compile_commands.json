@@ -1,8 +1,8 @@
 [
 {
-  "directory": "/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_7/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/Open_CV_Project.dir/display_video.cpp.o -c /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/display_video.cpp",
-  "file": "/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/display_video.cpp",
-  "output": "CMakeFiles/Open_CV_Project.dir/display_video.cpp.o"
+  "directory": "/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -isystem /opt/homebrew/Cellar/opencv/4.9.0_7/include/opencv4 -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o -c /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/image_manipulation.cpp",
+  "file": "/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/image_manipulation.cpp",
+  "output": "CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o"
 }
 ]

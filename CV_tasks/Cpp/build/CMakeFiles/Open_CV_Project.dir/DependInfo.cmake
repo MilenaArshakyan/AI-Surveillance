@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/display_video.cpp" "CMakeFiles/Open_CV_Project.dir/display_video.cpp.o" "gcc" "CMakeFiles/Open_CV_Project.dir/display_video.cpp.o.d"
+  "/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/image_manipulation.cpp" "CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o" "gcc" "CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

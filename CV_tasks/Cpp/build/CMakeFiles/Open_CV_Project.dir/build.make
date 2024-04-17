@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp
+CMAKE_SOURCE_DIR = /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/build
+CMAKE_BINARY_DIR = /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Open_CV_Project.dir/depend.make
@@ -69,28 +69,28 @@ include CMakeFiles/Open_CV_Project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Open_CV_Project.dir/flags.make
 
-CMakeFiles/Open_CV_Project.dir/display_video.cpp.o: CMakeFiles/Open_CV_Project.dir/flags.make
-CMakeFiles/Open_CV_Project.dir/display_video.cpp.o: /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/display_video.cpp
-CMakeFiles/Open_CV_Project.dir/display_video.cpp.o: CMakeFiles/Open_CV_Project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Open_CV_Project.dir/display_video.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Open_CV_Project.dir/display_video.cpp.o -MF CMakeFiles/Open_CV_Project.dir/display_video.cpp.o.d -o CMakeFiles/Open_CV_Project.dir/display_video.cpp.o -c /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/display_video.cpp
+CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o: CMakeFiles/Open_CV_Project.dir/flags.make
+CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o: /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/image_manipulation.cpp
+CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o: CMakeFiles/Open_CV_Project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o -MF CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o.d -o CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o -c /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/image_manipulation.cpp
 
-CMakeFiles/Open_CV_Project.dir/display_video.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Open_CV_Project.dir/display_video.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/display_video.cpp > CMakeFiles/Open_CV_Project.dir/display_video.cpp.i
+CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/image_manipulation.cpp > CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.i
 
-CMakeFiles/Open_CV_Project.dir/display_video.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Open_CV_Project.dir/display_video.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/display_video.cpp -o CMakeFiles/Open_CV_Project.dir/display_video.cpp.s
+CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/image_manipulation.cpp -o CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.s
 
 # Object files for target Open_CV_Project
 Open_CV_Project_OBJECTS = \
-"CMakeFiles/Open_CV_Project.dir/display_video.cpp.o"
+"CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o"
 
 # External object files for target Open_CV_Project
 Open_CV_Project_EXTERNAL_OBJECTS =
 
-Open_CV_Project: CMakeFiles/Open_CV_Project.dir/display_video.cpp.o
+Open_CV_Project: CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o
 Open_CV_Project: CMakeFiles/Open_CV_Project.dir/build.make
 Open_CV_Project: /opt/homebrew/lib/libopencv_gapi.4.9.0.dylib
 Open_CV_Project: /opt/homebrew/lib/libopencv_stitching.4.9.0.dylib
@@ -148,7 +148,7 @@ Open_CV_Project: /opt/homebrew/lib/libopencv_photo.4.9.0.dylib
 Open_CV_Project: /opt/homebrew/lib/libopencv_imgproc.4.9.0.dylib
 Open_CV_Project: /opt/homebrew/lib/libopencv_core.4.9.0.dylib
 Open_CV_Project: CMakeFiles/Open_CV_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Open_CV_Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Open_CV_Project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Open_CV_Project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -160,6 +160,6 @@ CMakeFiles/Open_CV_Project.dir/clean:
 .PHONY : CMakeFiles/Open_CV_Project.dir/clean
 
 CMakeFiles/Open_CV_Project.dir/depend:
-	cd /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/build /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/build /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/Cpp/build/CMakeFiles/Open_CV_Project.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build /Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build/CMakeFiles/Open_CV_Project.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Open_CV_Project.dir/depend
 

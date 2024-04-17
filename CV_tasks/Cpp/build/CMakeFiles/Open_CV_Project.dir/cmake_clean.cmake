@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Open_CV_Project.dir/display_video.cpp.o"
-  "CMakeFiles/Open_CV_Project.dir/display_video.cpp.o.d"
+  "CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o"
+  "CMakeFiles/Open_CV_Project.dir/image_manipulation.cpp.o.d"
   "Open_CV_Project"
   "Open_CV_Project.pdb"
 )
