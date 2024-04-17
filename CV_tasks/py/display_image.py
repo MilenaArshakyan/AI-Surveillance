@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('/Users/milena/Desktop/images/test.png')
+img = cv2.imread('images/test.webp')
 cv2.imshow('result', img)
 cv2.waitKey(3000)
 
