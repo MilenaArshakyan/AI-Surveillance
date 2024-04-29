@@ -1,3 +1,0 @@
-/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build/CMakeFiles/Open_CV_Project.dir
-/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build/CMakeFiles/edit_cache.dir
-/Users/milena/Desktop/survelliance/aiSur/AI-Surveillance-Tasks/CV_tasks/cpp/build/CMakeFiles/rebuild_cache.dir
